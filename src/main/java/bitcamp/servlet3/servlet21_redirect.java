@@ -31,7 +31,9 @@ public class servlet21_redirect extends GenericServlet {
     out.println("<title>servlet21_refresh1</title>");
     out.println("</head>");
     out.println("<body>");
+//    for ( int i = 0; i < 2000; i++) {
     out.println("<p>5초 후에 카카오 홈페이지로 이동.</p>");
+//    }
     out.println("</body>");
     out.println("</html>");
     response.sendRedirect("http://www.daum.net");
